@@ -2,10 +2,10 @@
 int main(){
     int a;
     scanf("%d",&a);
-    while(a<10)
+    while(a>=-11)
     {
         printf("%d\n",a);
-        a++;
+        a--;
     }
     return 0;
 }

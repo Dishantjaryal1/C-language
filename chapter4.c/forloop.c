@@ -5,7 +5,7 @@ int main(){
     printf("the value of n is\n");
     scanf("%d",&n);
 
-    for(a=1;a<=n;a++){
+    for(a=11;a>=n;a--){
         printf("the value of i is %d\n",a);
     }
     return 0;
